@@ -2,7 +2,7 @@
 
 An accessory for easier access to templates.
 
-Screenshot: <http://d.pr/9PIt>
+Screenshot: <http://d.pr/pHIH>
 
 ## Installation
 
