@@ -80,7 +80,7 @@ class Template_menu_acc
 						$("#template_menu_acc").attr("templateMenuHeight", $(this).outerHeight());
 					}
 				});
-				$("#template_menu_acc .accessorySection:not(.accessorySectionFirst)").height(templateMenuHeight);
+				$("#template_menu_acc .accessorySection:not(.accessorySectionFirst)").height($("#template_menu_acc").attr("templateMenuHeight"));
 			');
 		}
 	}
