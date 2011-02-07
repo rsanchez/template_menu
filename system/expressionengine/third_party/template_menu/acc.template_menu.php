@@ -74,7 +74,13 @@ class Template_menu_acc
 				$(".template_menu_acc").parent().siblings().removeClass("current");
 				$("#accessoriesDiv .accessory").hide();
 				$(".template_menu_acc").parent().addClass("current");
-				$("#template_menu_acc").show();
+				$("#template_menu_acc").show().attr("templateMenuHeight", 0);
+				$("#template_menu_acc .accessorySection:not(.accessorySectionFirst)").each(function(){
+					if ($(this).outerHeight() > $("#template_menu_acc").attr("templateMenuHeight")) {
+						$("#template_menu_acc").attr("templateMenuHeight", $(this).outerHeight());
+					}
+				});
+				$("#template_menu_acc .accessorySection:not(.accessorySectionFirst)").height(templateMenuHeight);
 			');
 		}
 	}
