@@ -51,6 +51,7 @@ class Template_menu_acc
 		$this->sections[''] = ul(array(
 			$search_form,
 			anchor(BASE.AMP.'C=design'.AMP.'M=new_template_group', '+ '.$this->EE->lang->line('nav_create_group')),
+			anchor(BASE.AMP.'C=design'.AMP.'M=manager', $this->EE->lang->line('nav_template_manager')),
 			anchor(BASE.AMP.'C=design'.AMP.'M=global_variables', $this->EE->lang->line('nav_global_variables')),
 			anchor(BASE.AMP.'C=design'.AMP.'M=snippets', $this->EE->lang->line('nav_snippets')),
 			anchor(BASE.AMP.'C=design'.AMP.'M=sync_templates', $this->EE->lang->line('nav_sync_templates')),
