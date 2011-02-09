@@ -76,11 +76,11 @@ class Template_menu_acc
 				$(".template_menu_acc").parent().addClass("current");
 				$("#template_menu_acc").show().attr("templateMenuHeight", 0);
 				$("#template_menu_acc .accessorySection:not(.accessorySectionFirst)").each(function(){
-					if ($(this).outerHeight() > $("#template_menu_acc").attr("templateMenuHeight")) {
+					if ($(this).outerHeight() > Number($("#template_menu_acc").attr("templateMenuHeight"))) {
 						$("#template_menu_acc").attr("templateMenuHeight", $(this).outerHeight());
 					}
 				});
-				$("#template_menu_acc .accessorySection:not(.accessorySectionFirst)").height($("#template_menu_acc").attr("templateMenuHeight"));
+				$("#template_menu_acc .accessorySection:not(.accessorySectionFirst)").height(Number($("#template_menu_acc").attr("templateMenuHeight")));
 			');
 		}
 	}
