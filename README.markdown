@@ -2,7 +2,7 @@
 
 An accessory for easier access to templates.
 
-Screenshot: <http://d.pr/pHIH>
+![Template Menu Screenshot](http://files.droplr.com/files/80683360/pHIH.Screen%20shot%202011-01-30%20at%2018%3A22%3A59.png)
 
 ## Installation
 
