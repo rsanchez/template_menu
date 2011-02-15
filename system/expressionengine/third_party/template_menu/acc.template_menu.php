@@ -35,7 +35,7 @@ class Template_menu_acc
 		$search_form = form_open('C=design'.AMP.'M=manager');
 		$search_form .= form_input(array(
 			'type' => 'search',
-			'id' => 'template_keywords',
+			//'id' => 'template_keywords',
 			'name' => 'template_keywords',
 			'value' => '',
 			'maxlength' => '80',
