@@ -4,7 +4,7 @@ class Template_menu_acc
 {
 	public $name = 'Template Menu';
 	public $id = 'template_menu_acc';
-	public $version = '1.0.0';
+	public $version = '1.0.1';
 	public $description = '';
 	public $sections = array();
 	
